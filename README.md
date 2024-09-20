@@ -1,9 +1,9 @@
-# BCI ChatBot
+# Dayforce ChatBot
 
-This is a **BCI-themed** chatbot built with React and integrated with the Gemini API. The chatbot provides answers on topics related to **intact**
+This is a **Dayforce-themed** chatbot built with React and integrated with the Gemini API. The chatbot provides answers on topics related to **intact**
 ## Features
 
-- **User Interface**: Custom BCI-themed design built using React components.
+- **User Interface**: Custom Dayforce-themed design built using React components.
 - **API Integration**: Uses the Gemini API to fetch data and respond to user queries.
 - **Interactive Elements**: Provides information on Intact topics 
 - **Responsive Design**: Optimized for all screen sizes and devices.
