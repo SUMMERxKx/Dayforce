@@ -4,10 +4,10 @@ import { useContext, useEffect } from 'react';
 import { Context } from '../../context/Context';
 
 const Main = () => {
-  const prompt1 = "Who are British Columbia Investment Management Corporation";
-  const prompt2 = "Key Features of British Columbia Investment Management Corporation";
-  const prompt3 = "Aim of British Columbia Investment Management Corporation";
-  const prompt4 = "When was British Columbia Investment Management Corporation formed";
+  const prompt1 = "Who are Dayforce";
+  const prompt2 = "Key Features of Dayforce";
+  const prompt3 = "How Dayforce helps businesses achieve their HR goals?";
+  const prompt4 = "How Dayforce impacts employees and their work experience?";
 
   const { onSent, recentPrompt, showResult, resultData, setInput, input, loading } = useContext(Context);
 
@@ -40,7 +40,7 @@ const Main = () => {
   return (
     <div className='main'>
       <div className="nav">
-        <p>BCI</p>
+        <p>Dayforce</p>
         <img src={assets.user_icon} alt="" />
       </div>
       <div className="main-container">
@@ -49,7 +49,7 @@ const Main = () => {
         <>
           <div className="greet">
               <p><span>Hello, User.</span></p>
-              <p>Welcome to BCI ChatBot</p>
+              <p>Welcome to Dayforce ChatBot</p>
           </div>
           <div className="cards">
               <div className="card" onClick={() => handleCardClick(prompt1)}>
